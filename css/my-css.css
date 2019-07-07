@@ -1,5 +1,4 @@
-.body {
-	width: 100%;
+body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
@@ -10,7 +9,7 @@
 /*top menu*/
 .menu-all {
 	background-color: #139f49;
-	background-image:url('pattern.png');
+	background-image:url('../images/pattern.png');
 }
 
 .flex-menu {
@@ -39,17 +38,18 @@
 	color: white;
 	text-decoration-line: overline underline;
 }
-.is-active {
-	text-decoration-line: overline underline;
-}
-.active:active {
+.header-menu:active {
 	opacity: 0.5;
 }
+.header-menu.is-active{
+	text-decoration-line: overline underline;
+}
+
 /*top menu*/
 
 .main-section {
 	height: 720px;
-	background: url('images/art_museum_render_1.jpg') no-repeat;
+	background: url('../images/art_museum_render_1.jpg') no-repeat;
 	background-position: center center;
 }
 .panel-wrapper {
@@ -179,3 +179,68 @@
 	display: flex;
 	justify-content: center;
 }
+/*block with video*/
+.main-section-2 {
+	background: url('../images/penopolistirol.png') no-repeat;
+	background-position: center top;
+	background-size: auto;
+}
+.logo-part2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 70px;
+}
+.text2 {
+	font-family:EuropeExt, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #073d79;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 23px;
+}
+.video-content {
+	display: flex;
+	justify-content: center;
+	padding-top: 12px;
+}
+.shadow-down2 {
+	display: flex;
+	justify-content: center;
+}
+.text-content {
+	margin-top: -35px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 980px;
+	font-size: 14px;
+	line-height: 1.5em;
+	text-align: center;
+}
+.button-push {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 26px;
+}
+.button-push a {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	width: 405px;
+	height: 52px;
+	background: #01983b;
+	border-radius: 4px;
+	font-family:EuropeExt, sans-serif;
+	font-size: 24px;
+	text-decoration-line: none;
+	text-transform: uppercase;color: #ffffff;
+	background-image:url('../images/pattern.png');
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.6);
+}
+.button-push a:hover {
+	background-color: #70c590;
+}
+.button-push a:active {
+	background-color: #004b1d;
+ }
