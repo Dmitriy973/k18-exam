@@ -184,6 +184,7 @@ body {
 	background: url('../images/penopolistirol.png') no-repeat;
 	background-position: center top;
 	background-size: auto;
+	/*outline: 1px solid green;*/
 }
 .logo-part2 {
 	display: flex;
@@ -234,7 +235,8 @@ body {
 	font-family:EuropeExt, sans-serif;
 	font-size: 24px;
 	text-decoration-line: none;
-	text-transform: uppercase;color: #ffffff;
+	text-transform: uppercase;
+	color: #ffffff;
 	background-image:url('../images/pattern.png');
 	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.6);
 }
@@ -244,3 +246,302 @@ body {
 .button-push a:active {
 	background-color: #004b1d;
  }
+ /*- БЛОК «СФЕРА ПРИМЕНЕНИЯ»*/
+.main-section-3 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 826px;
+	background: url('../images/background-image3.png') no-repeat;
+	/*background-size:contain;*/
+	background-position: center top;
+	/* background-position-x: 177px; */
+}
+.text3 {
+	font-family:EuropeExt, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #0A3F76;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 46px;
+}
+.module-title {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 32px;
+}
+
+/*левый блок*/
+.module-block1-left {
+	position: relative;
+	min-width: 614px;
+	margin-right: 3px;
+	height: 309px;
+	background-image:url('../images/picture for section-3_1.png');
+
+}
+.module-block1-left::before {
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color: rgba(0,0,0,0.5);
+ }
+.headline-module-block1-left {
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #ffffff;
+	top:24px;
+	right:50px;
+}
+
+.block-3-left li:nth-child(3) {
+	background-color:#01983b;
+	padding: 1px 45px;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform:uppercase;
+	text-align: right;
+}
+.block-3-left li:nth-child(2) {
+	min-width: 40px;
+	background-color: rgba(1, 152, 59, 0.6 )
+}
+.block-3-left li:nth-child(1) {
+	min-width: 45px;
+	background-color: rgba(1, 152, 59, 0.3 )
+}
+.block-3-ul-1-l {
+	display: flex;
+	position: absolute;
+	margin: 0;
+	top:60px;
+	right: 0;
+	list-style: none;
+}
+.block-3-ul-2-l {
+	display: flex;
+	position: absolute;
+	margin: 0;
+	top:85px;
+	right: 0;
+	list-style: none;
+}
+.block-3-ul-3-l {
+	display: flex;
+	position: absolute;
+	margin: 0;
+	top:110px;
+	right: 0;
+	list-style: none;
+}
+.logo-3-left {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.logo-3-left img {
+	display: block;
+	background: rgba(255, 255, 255, 0.3);
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 375px;
+    padding-right: 50px;
+}
+/*правый блок*/
+.module-block-right {
+	position: relative;
+	min-width: 614px;
+	margin-left: 3px;
+	height: 309px;
+	background-image:url('../images/picture for section-3_2.png');
+}
+.module-block-right::before {
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color: rgba(0,0,0,0.5);
+ }
+.headline-module-block2-right {
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #ffffff;
+	top:24px;
+	left:43px;
+}
+.block-3-right li:nth-child(3) {
+	background-color:#01983b;
+	padding: 1px 45px;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform:uppercase;
+	text-align: right;
+}
+.block-3-right li:nth-child(2) {
+	min-width: 40px;
+	background-color: rgba(1, 152, 59, 0.6 )
+}
+.block-3-right li:nth-child(1) {
+	min-width: 45px;
+	background-color: rgba(1, 152, 59, 0.3 )
+}
+.block-3-ul-1-r {
+	display: flex;
+	flex-direction: row-reverse;
+	position: absolute;
+	padding-inline-start: 0px;
+	margin: 0;
+	top:60px;
+	left: 0;
+	list-style: none;
+}
+.block-3-ul-2-r {
+	display: flex;
+	flex-direction: row-reverse;
+	position: absolute;
+	padding-inline-start: 0px;
+	margin: 0;
+	top:85px;
+	left: 0;
+	list-style: none;
+}
+.block-3-ul-3-r {
+	display: flex;
+	flex-direction: row-reverse;
+	position: absolute;
+	padding-inline-start: 0px;
+	margin: 0;
+	top:110px;
+	left: 0;
+	list-style: none;
+}
+.logo-3-right {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.logo-3-right img {
+	display: block;
+	background: rgba(255, 255, 255, 0.3);
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 50px;
+    padding-right: 375px;
+}
+/*РОМБЫ*/
+.logo-rhombus{
+	display: flex;
+	justify-content: center;
+}
+.logo-rhombus div:nth-child(odd) {
+	margin-top: 50px;
+}
+.logo-rhombus div:nth-child(even) {
+	margin-top: 100px;
+}
+.logo-rhombus-text {
+	text-align: center;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #18933F;
+}
+/*технические характеристики*/
+.main-section-4 {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	min-height: 760px;
+	align-items: center;
+}
+.main-section-4-backside {
+	position: absolute;
+	background: url('../images/back picture4.png') no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:528px;
+	top:193px;
+}
+.logo-part3 {
+	text-align: center;
+	margin-top: 55px;
+}
+.text4 {
+	font-family:EuropeExt, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #18933F;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+.white-square-in {
+	position: absolute;
+	top:0;
+	z-index: 2;
+}
+.white-square {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-width: 1217px;
+	min-height: 769px;
+	border: 3px solid #d5dfec;
+	border-radius: 3px;
+	background-color:rgba(255,255,255,0.6);
+	z-index: 1;
+}
+
+/* Таблица */
+.main-section-table-4-all {
+	display: flex;
+	justify-content: center;
+	margin-top: 133px;
+}
+
+.main-section-table-4 {
+	font-size: 14px;
+	background: #ffffff;
+  	color: #000000;
+  	border: 3px solid #d5dfec;
+	border-radius: 3px;
+
+}
+.main-section-table-4 th, td {
+	border: 1px solid #d5dfec;
+	padding: 10px 15px;
+	text-align: center;
+}
+.main-section-table-4 th {
+	color:#ffffff;
+	text-transform:uppercase;
+	text-align:center;
+	background-color: #01983b;
+	background-image:url(../images/pattern.png);
+}
+.main-section-table-4 th:first-child {
+	text-align: left;
+}
+.main-section-table-4 td:first-child {
+	text-align: left;
+}
+.table-4:nth-child(even) {
+	background: #F5F6F7;
+}
+.shadow-down4 {
+	display: flex;
+	justify-content: center;
+}
