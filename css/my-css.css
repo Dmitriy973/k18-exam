@@ -139,7 +139,7 @@ body {
 .slider-text {
 	position: absolute;
 	left:0;
-	bottom:50px;
+	bottom:40px;
 	background: rgba(0,0,0,0.4);
 	max-width: 770px;
 	color:#fff;
@@ -236,7 +236,7 @@ body {
 	margin-top: -35px;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 980px;
+	max-width: 830px;
 	font-size: 14px;
 	line-height: 1.5em;
 	text-align: center;
@@ -303,7 +303,7 @@ body {
 	min-width: 614px;
 	margin-right: 3px;
 	height: 309px;
-	background-image:url('../images/picture for section-3_1.png');
+	background-image:url('../images/picture-for-section-3_1.png');
 
 }
 .module-block1-left::before {
@@ -383,7 +383,7 @@ body {
 	min-width: 614px;
 	margin-left: 3px;
 	height: 309px;
-	background-image:url('../images/picture for section-3_2.png');
+	background-image:url('../images/picture-for-section-3_2.png');
 }
 .module-block-right::before {
   	content: '';
@@ -491,7 +491,7 @@ body {
 }
 .main-section-4-backside {
 	position: absolute;
-	background: url('../images/back picture4.png') no-repeat;
+	background: url('../images/back-picture4.png') no-repeat;
 	background-position: center top;
 	width: 100%;
 	height:528px;
@@ -575,8 +575,8 @@ body {
 	flex-direction: column;
 	width: 100%;
 	min-height: 480px;
-	background: url('../images/back picture5.png') no-repeat;
-	background-size:contain;
+	background: url('../images/back-picture5.png') no-repeat;
+	/*background-size:contain;*/
 	background-position: center top;
 
 }
@@ -587,12 +587,13 @@ body {
 	color: #18933F;
 	text-align: center;
 	text-transform: uppercase;
-	padding-top: 45px;
+	padding-top: 30px;
 }
 
 .table-color {
 	max-width: 1225px;
 	margin-top: 29px;
+	margin-bottom: 39px;
 	border-spacing: 0 5px;
 	font-size: 14px;
 	color: white;
@@ -657,6 +658,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 6px;
 }
 .logo-part6 {
 	display: flex;
@@ -676,8 +678,8 @@ body {
 	display: flex;
 	justify-content: center;
 	min-width: 980px;
-	margin-top: 10px;
-	margin-bottom: 25px;
+	margin-top: 26px;
+	margin-bottom: 11px;
 
 }
 .fresco-image img {
@@ -692,6 +694,7 @@ body {
 	font-weight: bold;
 	color: rgba(49, 47, 127, 1.0);
 	text-transform: uppercase;
+	margin-top: 11px;
 }
 .medal-of-honor img {
 	width: 113px;
@@ -751,7 +754,7 @@ body {
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	width:1920px;
+	width:100%;
 	height: 337px;
 }
 
@@ -762,7 +765,7 @@ footer {
 	width: 100%;
 	min-height: 312px;
 	background:url('../images/pattern.png'),#139f49 
-	url('../images/PENOBOARD1.png') no-repeat;
+	url('../images/penoboard1.png') no-repeat;
 	background-position: center center;
 }
 .footer-icon {
